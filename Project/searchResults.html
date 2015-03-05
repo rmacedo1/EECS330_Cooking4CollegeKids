@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="healthy.css">
+    <title>Cooking 4 College Kids</title>
+</head>
+<body>
+    <div id="header">    
+        <ul>
+		<li id="logo"><a href="homepage.html" target="_self"><img src="logo1.png"></a></li>
+        
+            <li><a class="navButton" id="home" href="homepage.html" target="_self">Home</a></li>
+            <li><a class="navButton" href="upload.html" target="_self">Upload a recipe</a></li>
+            <li><a class="navButton" href="advanced.html" target="_self">Find recipe</a></li>
+            <li><a class="navButton" href="Healthy.html" target="_self">Healthy</a></li>
+			<li><a class="navButton" href="Quick.html" target="_self">Quick</a></li>
+			<li><a class="navButton" href="Popular.html" target="_self">Popular</a></li>
+        </ul>
+    </div>
+	<div id="filterResults">
+			<h4>Filter By</h4>
+			<ul class="filterList">
+                <li class="filteroption">Meal Course<br>
+                <form action="">
+                    <input type="checkbox" name="meal" value="Breakfaast">Breakfast<br>
+                    <input type="checkbox" name="meal" value="Lunch">Lunch<br>
+                    <input type="checkbox" name="meal" value="Dinner">Dinner<br>
+                </form></li>
+                <li class="filteroption">Dietary Restrictions<br>
+                <form action="">
+                    <input type="checkbox" name="diet" value="Lactose">Dairy<br>
+                    <input type="checkbox" name="diet" value="Gluten">Gluten<br>
+                    <input type="checkbox" name="diet" value="Meat">Meat<br>
+                    <input type="checkbox" name="diet" value="Vegan">Vegan<br>
+                </form></li>
+                <li class="filteroption">Time<br>
+                <form action="">
+                    <input type="checkbox" name="time" value="Five">  5-10 mins<br>
+                    <input type="checkbox" name="time" value="Fifteen">15 mins<br>
+                    <input type="checkbox" name="time" value="Twenty">20 mins<br>
+                    <input type="checkbox" name="time" value="Thirty">> 30 mins<br>
+                </form></li>
+                <li class="filteroption">Appliance<br>
+                <form action="">
+                    <input type="checkbox" name="app" value="Microwave">Microwave<br>
+                    <input type="checkbox" name="app" value="Oven">Oven<br>
+                    <input type="checkbox" name="app" value="Stove">Stove<br>
+                </form></li>
+            </ul>
+		</div>
+<div id="contenth">
+				<div id= "sorting">
+				<select>
+					<option>Health Rating</option>
+					<option>Popularity</option>
+				</select>
+				<button id="sort" type="submit">Sort</button>
+				</div>
+			<div id="results">
+				<ul type="1">
+					<h3>Search Results</h3>
+					<li>
+						<div class="recipedesc">
+							<img src="tunacasserole.jpg" alt="Pasta" class="searchresimage">
+							<a href="recipe">Easy Tuna Casserole</a>
+							<br>User Rating: &#10022; &#10022; &#10022; &#10022; &#10022;
+							<br>Health Rating: &hearts; &hearts; &hearts; &hearts; &#9825; 
+						</div>
+					</li>
+					<li>
+						<div class="recipedesc">
+						<img src="salad.png" alt="Pasta" class="searchresimage">
+						<a href="recipe">Fruit Salad</a>
+						<br>User Rating: &#10022; &#10022; &#10022; &#10022; &#10023;
+						<br>Health Rating: &hearts; &hearts; &hearts; &#9825; &#9825; 
+						</div>
+					</li>
+					<li>
+						<div class="recipedesc">
+						<img src="traditionalwrap.jpg" alt="Wrap" class="searchresimage">
+						<a href = "recipe2.html">The Traditional Vegetable Wrap</a>
+						<br>User Rating: &#10022; &#10022; &#10022; &#10022; &#10023;
+						<br>Health Rating: &hearts; &hearts; &hearts; &#9825; &#9825; 
+						</div>
+					</li>
+					<li>
+						<div class="recipedesc">
+							<img src="recipe1.jpg" alt="Pasta" class="searchresimage">
+							<a href="recipe.html">Spaghetti with Tomato Sauce</a>
+							<br>User Rating: &#10022; &#10022; &#10022; &#10022; &#10022;
+							<br>Health Rating: &hearts; &hearts; &hearts; &hearts; &#9825; 
+						</div>
+					</li>
+					<li>
+						<div class="recipedesc">
+						<img src="sandwhich.jpg" alt="Pasta" class="searchresimage">
+						<a href = "recipe">Tomato Basil Mozarrella Sandwhich</a>
+						<br>User Rating: &#10022; &#10022; &#10022; &#10022; &#10023;
+						<br>Health Rating: &hearts; &hearts; &hearts; &#9825; &#9825; 
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

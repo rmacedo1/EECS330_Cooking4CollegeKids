@@ -1,0 +1,213 @@
+#header {
+    background-color: #DAEAEF;
+	top:0px;
+	left:0px;
+    height:155px;/*background image height*/
+	position:fixed;
+	z-index:2;
+	width:100%;
+}
+body {
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+#logo{
+	margin-left:10px;
+	margin-top:-10px;
+}
+#header li{
+    float: left;
+    list-style-type: none;
+}
+
+.navButton {
+	text-decoration:none;
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FF3D2E;
+    background-color: #DAEAEF;
+    text-align: center;
+	margin-top:35px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	height:.75em;
+}
+
+.navButton:hover {
+    background-color: #9DBDC6;
+}
+
+#home {
+    margin-left: 100px;
+}
+
+#content {
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 5%;
+	margin-top:110px;
+    padding-right: 5%;
+
+}
+#background{
+	background-image:url('pepperbackground.png');
+	width:1110px;
+	height:500px;
+	position:fixed;
+	top:200px;
+	left:300px;
+	border-image-repeat:stretch;
+}
+
+
+#findrecipe{
+
+    height: 350px;
+
+    width: 550px;
+
+    margin-bottom: 30px;
+
+    margin-top: 30px;
+
+    background-color: #666699;
+
+    text-align:center;
+
+}
+
+/*  MODIFIED -ROSIO */
+
+#searcharea {
+	list-style-type: none;
+    width: 475px;
+
+    height: 50px;
+
+    margin-left: 20px;
+
+    margin-top: 10px;
+position:relative;
+top:13em;
+left:20em;
+opacity:.8;
+
+}
+
+
+#searcharea textarea {
+
+    resize: none;
+
+    width: 400px;
+
+    height: 30px;
+
+    border: none;
+
+    background-color: #f1f1f1;
+
+    padding-left: 20px;
+
+    padding-top: 15px;
+
+}
+
+
+#submitGo {
+
+    background-color: darkgray;
+
+    color: white;
+
+    float: right;
+
+    height: 47px;
+
+    width: 50px;
+
+    margin-left: 0px;
+
+}
+
+/*  Modified-Rosio END */
+
+
+.homepageButton {
+
+    height: 300px;
+
+    width: 350px;
+
+}
+
+
+#recent {
+
+    margin-right: 30px;
+
+    margin-bottom: 30px;
+
+}
+
+
+#popular {
+
+    margin-left: 30px;
+
+    margin-bottom: 30px;
+
+}
+
+
+#healthy {
+
+    margin-right: 30px;
+
+    margin-top: 30px;
+
+}
+
+
+#quick {
+
+    margin-left: 30px;
+
+    margin-top: 30px;
+
+}
+
+
+
+
+hr {
+
+    width: 250px;
+
+    margin-bottom: 40px;
+
+}
+
+
+footer {
+
+    background-color: #ff9f1a;
+
+    margin-top: 50px;
+
+    margin-bottom: 0px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    text-align: center;
+
+}
+
+

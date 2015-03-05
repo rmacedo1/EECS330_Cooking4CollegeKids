@@ -1,0 +1,38 @@
+#left{
+	margin-left:500px;
+}
+#search{
+	background-color: darkgray;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 0px;
+	float:right;
+}
+#search a{
+	text-decoration: none;
+	margin:1px;
+}
+#clear{
+background-color: darkgray;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 0px;
+	float:right;
+}
+#clear a{
+	text-decoration: none;
+	margin:1px;
+}
+#right{
+	margin-right:750px;
+	margin-top:-350px;
+	float:right;
+}
+#buttons li{
+	display:block;
+}
+h3{
+	margin-top:165px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> Cooking4CollegeStudents </title>
+        	<link rel="stylesheet" href="style.css"></link>
+			<link rel="stylesheet" href="upload.css"></link>
+	</head>
+<body>
+		<div id="header">    
+        <ul>
+		<li id="logo"><a href="homepage.html" target="_self"><img src="logo1.png"></a></li>
+        
+            <li><a class="navButton" id="home" href="homepage.html" target="_self">Home</a></li>
+            <li><a class="navButton" href="upload.html" target="_self">Upload a recipe</a></li>
+            <li><a class="navButton" href="advanced.html" target="_self">Find recipe</a></li>
+            <li><a class="navButton" href="Healthy.html" target="_self">Healthy</a></li>
+			<li><a class="navButton" href="Quick.html" target="_self">Quick</a></li>
+			<li><a class="navButton" href="Popular.html" target="_self">Popular</a></li>
+        </ul>
+    </div>
+        		
+		
+<div id="content">	
+<h3>Upload</h3>	
+		<form enctype="multipart/form-data">
+		Name: <br>
+		<input type="text" name="recipename">
+		<br><br>
+		Time:<br>
+		<select name="time">
+			<option value="five">5-10 minutes</option>
+			<option value="fifteen">15 minutes</option>
+			<option value="twenty">20 minutes</option>
+			<option value="thirty">30 minutes</option>
+		</select><br><br>
+		Main Ingredient: <br>
+		<input type="text" name="main">
+		<br><br>
+		Dietary Restrictions<br>
+		<input type="checkbox" value="Dairy">Dairy<br>
+		<input type="checkbox" value="Gluten">Gluten<br>
+		<input type="checkbox" value="Meat">Meat<br>
+		<input type="checkbox" value="Vegan">Vegan<br><br>
+		Health Rating:<br>
+		<input type="radio" value="1"> &hearts;<br />
+		<input type="radio" value="2"> &hearts;&hearts;<br />
+		<input type="radio" value="3"> &hearts;&hearts;&hearts;<br />
+		<input type="radio" value="4"> &hearts;&hearts;&hearts;&hearts;<br />
+		<input type="radio" value="5"> &hearts;&hearts;&hearts;&hearts;&hearts;<br /><br>
+		Appliances<br>
+		<select name="appliances">
+			<option value="Stove">Stove</option>
+			<option value="Oven">Oven</option>
+			<option value="Microwave">Microwave</option>
+			<option value="Blender">Blender</option>
+		</select>
+		<br><br>
+		Image<br><input type="file" name="selectedfile" /><br><br>
+		Type Instructions<br>
+		<textarea></textarea><br><br>
+		OR<br><br>
+		Upload a Document<br><input type="file" name="selectedfile" /><br><br>
+		<button id="submit"><a href="submit.html">Submit</a></button>
+		</form>
+		</div>
+		</body>
+</html>
+
