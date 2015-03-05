@@ -1,0 +1,17 @@
+#contents{
+	text-align:center;
+}
+#submit{
+background-color: darkgray;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 0px;
+}
+#submit a{
+	text-decoration: none;
+	margin:1px;
+}
+h3{
+	margin-top:165px;
+}

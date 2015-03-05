@@ -1,0 +1,68 @@
+#contenth {
+	text-align: left;
+	margin-left:20em;
+	margin-top:9em;
+	width:61.5em;
+}
+
+#sorting{
+	padding-top:20px;
+	float:right;
+}
+
+#filterResults {
+	float: left;
+	width: 13em;
+	background-color: #DAEAEF;
+	height: auto;
+	margin-top: 5%;
+	margin-left: 2%;
+	padding: 1%;
+}
+
+ul.filterList {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+li.filteroption {
+	padding: 2%;
+}
+
+#filterResults form {
+	padding: 2%;
+}
+
+#results ul {
+	display: block;
+	padding-top: 2%;
+	
+}
+
+#results li {
+	display: block;
+	float: none;
+}
+
+#results .recipedesc {
+	display: block;
+	margin: 10px;
+	height: 110px;
+	width: 100%;
+}
+
+.searchresimage {
+    height:100px;
+    width:100px;
+    float:left;
+    margin: 5px;
+}
+
+#sort {
+	border: 1px solid darkgray;
+}
+
+#sorting {
+	margin: 2%;
+}

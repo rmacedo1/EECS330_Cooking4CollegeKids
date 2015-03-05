@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="search.css">
+    <title>Cooking 4 College Kids</title>
+</head>
+    <div id="header">    
+        <ul>
+		<li id="logo"><a href="homepage.html" target="_self"><img src="logo1.png"></a></li>
+        
+            <li><a class="navButton" id="home" href="homepage.html" target="_self">Home</a></li>
+            <li><a class="navButton" href="upload.html" target="_self">Upload a recipe</a></li>
+            <li><a class="navButton" href="advanced.html" target="_self">Find recipe</a></li>
+            <li><a class="navButton" href="Healthy.html" target="_self">Healthy</a></li>
+			<li><a class="navButton" href="Quick.html" target="_self">Quick</a></li>
+			<li><a class="navButton" href="Popular.html" target="_self">Popular</a></li>
+        </ul>
+    </div>
+
+<div id="left">	
+<h3>Search</h3>	
+		<form enctype="multipart/form-data">
+		Ingredients <br>
+		<input type="text" name="main">
+		<br><br>
+		Appliances<br>
+		<input type="text" name="app">
+		<br><br>
+		Time<br>
+			<input type="checkbox" value="five">5-10 minutes</option><br>
+			<input type="checkbox" value="fifteen">15 minutes</option><br>
+			<input type="checkbox" value="twenty">20 minutes</option><br>
+			<input type="checkbox" value="thirty">30 minutes</option><br><br>
+		Dietary Restrictions<br>
+		<input type="checkbox" value="Dairy">Dairy<br>
+		<input type="checkbox" value="Gluten">Gluten<br>
+		<input type="checkbox" value="Meat">Meat<br>
+		<input type="checkbox" value="Vegan">Vegan<br><br>
+		</div>
+		<div id="right">
+		Avoid<br>
+		<input type="text" name="avoid">
+		<br><br>
+		Nutrients<br>
+		<input type="text" name="nutr">
+		<br><br>
+		
+		Health Rating<br>
+		<select name="health">
+		<option value="1"> &hearts;<br />
+		<option value="2"> &hearts;&hearts;<br />
+		<option value="3"> &hearts;&hearts;&hearts;<br />
+		<option value="4"> &hearts;&hearts;&hearts;&hearts;<br />
+		<option value="5"> &hearts;&hearts;&hearts;&hearts;&hearts;</select><br /><br>
+		User Rating<br>
+		<select name="user">
+			<option value="one">&#10022;</option>
+			<option value="two">&#10022;&#10022;</option>
+			<option value="three">&#10022;&#10022;&#10022;</option>
+			<option value="four">&#10022;&#10022;&#10022;&#10022;</option>
+			<option value="five">&#10022;&#10022;&#10022;&#10022;&#10022;</option>
+		</select><br><br>
+		Meal<br>
+		<select name="food">
+			<option value="bfast">Breakfast</option>
+			<option value="lunch">Lunch</option>
+			<option value="dinner">Dinner</option>
+		</select><br><br>
+		<div id="buttons">
+		<ul>
+		<li><button id="search"><a href="searchResults.html">Search</a></button></li>
+		<li><button id="clear"><a href="advanced.html">Clear Search</a></button></li>
+		</ul>
+		</div>
+		</form>
+		</div>
+		</body>
+</html>
